@@ -21,6 +21,24 @@ body{
 }
 
 
+/* utilities */
+ .btn-home{
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    padding-top: 2rem;
+    padding-left: 0.6rem;
+}
+
+.btn-home a{
+    color: #fff;
+    border: #fff solid 1px;
+    padding: 0.2rem;
+    border-radius: 6px;
+    
+    
+}
 
 
 
@@ -37,6 +55,7 @@ header .main-nav{
   position: sticky;
   top:0;
   z-index: 2;
+  
 }
 
 header .main-nav a{
@@ -101,28 +120,94 @@ main h1{
 
 main p{
     color: #ddd;
-    font-weight: 900;
+    
+    padding: 1.5rem;
     
 }
 
 main #about-image{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    transition: all 0.3s ease-in;
+    
 
 }
 
 main #about-image img{
-    height: 60rem;
+    height: 96vh;
+    /* height: 30rem; */
 }
 
-main .home-btn{
+
+
+/* sign-up */
+
+section  .text-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 9rem;
     color: #fff;
-    margin-bottom: 10rem;
-    border: 0.1px solid #fff;
-    padding: 0.5rem;
-    border-radius: 6px;
+    
 }
 
+/* section .signup-form{
+    background: #333;
+    padding: 2rem;
+    opacity: 0.9;
+} */
+
+section .signup-text h1{
+    font-family: 'raleway';
+    font-size: 6rem;
+   
+    
+}
+
+section .signup-text{
+    margin-bottom: 13rem;
+}
+
+
+
+
+
+.signup-form .form-group{
+    margin-bottom: 1rem;
+    
+}
+
+.signup-form .form-group label{
+    display: block;
+}
+
+.signup-form .form-group input{
+    width: 100%;
+    padding: 0.1rem;
+}
+.signup-form .form-group input:hover{
+    opacity: 0.8;
+}
+.signup-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: black;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    color: #fff;
+    box-shadow: 5px 5px 5px #fff;
+  }
+
+  /* saftety */
+
+#Safety-tips{
+    color: #fff;
+    padding: 5rem;
+    font-family: 'raleway';
+   
+    
+}
 
 

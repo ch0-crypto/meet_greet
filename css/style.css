@@ -9,6 +9,7 @@
 
 a{
     text-decoration: none;
+    list-style: none;
 }
 
 
@@ -17,7 +18,8 @@ body{
     background: black;
     font-family: "quicksand";
     font-size: larger;
-   
+    max-width: 2850px;
+   margin: auto;
 }
 
 
@@ -133,8 +135,8 @@ main #about-image{
 }
 
 main #about-image img{
-    height: 96vh;
-    /* height: 30rem; */
+   max-width: 550px;
+   margin: auto;
 }
 
 
@@ -183,10 +185,9 @@ section .signup-text{
 .signup-form .form-group input{
     width: 100%;
     padding: 0.1rem;
+    border: 2px solid #333;
 }
-.signup-form .form-group input:hover{
-    opacity: 0.8;
-}
+
 .signup-form button {
     display: block;
     width: 100%;
@@ -209,5 +210,91 @@ section .signup-text{
    
     
 }
+
+/* footer */
+footer{
+ width: 100%;
+ background: url(../img/imageedit_4_9338558376.jpg) no-repeat center center/cover;
+ 
+
+}
+
+footer .footer-links {
+  display: flex;
+    padding: 3rem;
+    
+}
+
+
+
+footer .footer-links li {
+    padding: 1.8rem;
+}
+
+footer a{
+    color: #fff;
+    transition: all 0.3s ease-in;
+    
+}
+
+footer ul li{
+    list-style: none;
+    
+}
+
+footer ul li  :hover{
+    color: #333;
+}
+
+footer .socials{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8rem;
+    align-items: center;
+   
+}
+
+footer .socials i{
+    padding: 1.5rem;
+    
+}
+
+footer .socials i :hover{
+ color: #333;
+}
+
+footer .footer-thread{
+    display: flex;
+
+    
+}
+
+
+  
+
+.footer-about h4{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: right;
+    margin-bottom: 4rem;
+    color: #fff;
+}
+
+footer .footer-about p{
+    font-weight: bolder;
+    text-align: right;
+    color: #fff;
+    
+}
+
+.footer-thread .form {
+  
+    
+}
+
+
+
+
+
 
 

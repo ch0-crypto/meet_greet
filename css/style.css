@@ -18,7 +18,7 @@ body{
     background: black;
     font-family: "quicksand";
     font-size: larger;
-    max-width: 2850px;
+    max-width: 2700px;
     margin: auto;
 }
 
@@ -98,8 +98,8 @@ header .aside1 a:hover{
 
 header h1{
     font-family: "raleway";
-    font-size: 7rem;
-    margin-top: 3rem;
+    font-size: 6rem;
+    margin-top: 1rem;
     margin-left: 3rem;
     color: #ddd;
 }
@@ -171,7 +171,7 @@ section .signup-text h1{
 }
 
 section .signup-text{
-    margin-bottom: 13rem;
+    margin-bottom: 18rem;
 }
 
 
@@ -188,14 +188,18 @@ section .signup-text{
 }
 
 .signup-form .form-group input{
-    width: 100%;
-    padding: 0.1rem;
+    width: 70%;
+    padding: 0.5rem;
     border: 2px solid #333;
+}
+
+.signup-form .form-group textarea{
+    width: 70%;
 }
 
 .signup-form button {
     display: block;
-    width: 100%;
+    width: 70%;
     padding: 10px;
     background: black;
     margin-top: 10px;
@@ -297,10 +301,10 @@ footer .footer-about p{
     
 }
 
-.footer-thread .form {
+/* .footer-thread .form {
   
     
-}
+} */
 
 
 @media (max-width:952px){
@@ -344,12 +348,16 @@ footer .footer-about p{
         font-size: 10px;
     }
 }
+
+
+
+
+
 @media (max-width:600px){
     /* header nav a{
         font-size: 13px;
         
     } */
-
 
     main .about-text p{
         font-size: 18px;
@@ -371,11 +379,11 @@ footer .footer-about p{
         margin-right: 9rem;
     }
     .signup-form .form-group input{
-        width: 50%;
+        width: 200%;
     }
 
     .signup-form button{
-        width: 50%;
+        width: 100%;
     }
 
     main h1{
@@ -402,5 +410,86 @@ footer .footer-about p{
 
 
 
+@media (max-width:540px){
+    header h1{
+        font-size: 25px;
+        
+    }
+
+   .btn-home{
+        display: hidden;
+    }
+
+    section .signup-text h1 {
+        display: none;
+        
+    }
+    section .signup-text p {
+        display: none;
+        
+    }
+
+    section .signup-form{
+        margin-right: 9rem;
+    }
+    .signup-form .form-group input{
+        width: 200%;
+    }
+
+    .signup-form button{
+        width: 100%;
+    }
+
+    main h1{
+        margin-top: 8rem;
+        margin-left: 5rem;
+        font-size: 3rem;
+    }
+
+    main #about-image {
+        display: block;
+        margin-left: 2rem;
+    }
+
+    .footer-about h4{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:414px){
+    header p{
+        margin-right: 6rem;
+    }
+    footer .socials{
+        margin-right: 2rem;
+    }
+    footer .socials i {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:364px){
+    footer .socials{
+        margin-left: 2rem;
+    }
+
+    footer .footer-links {
+        margin-right: 20rem;
+        padding: 0rem 0rem;
+    }
+
+    main .about-img {
+        width: 20px;
+    }
+
+    .btn-home{
+        display: none;
+    }
+
+    header p{
+        margin-top: 4rem;
+        margin-left: 3rem;
+    }
+}
 
 

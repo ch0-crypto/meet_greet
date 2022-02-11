@@ -472,8 +472,32 @@ footer .footer-about p{
     footer .socials i {
       font-size: 18px;
     }
+
   }
 
+  @media (max-width: 422px){
+       .btn-home{
+         display: none;
+       }
+       main #about-image .about-img img{
+        width: 18rem;
+      }
+
+      main h1{
+        font-size: 2rem;
+        margin: 2.2rem;
+      }
+
+      section .signup-form{
+        margin: -7rem;
+      }
+      .signup-form .form-group input{
+        width: 250px;
+      }
+      footer .socials i {
+        font-size: 20px;
+      }
+  }
 
 
   
